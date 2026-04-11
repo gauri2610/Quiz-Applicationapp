@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="@string/welcome_message"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Start Quiz Button -->
+        <Button
+            android:id="@+id/startQuizBtn"
+            android:text="@string/start_quiz"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- View Score -->
+        <Button
+            android:id="@+id/scoreBtn"
+            android:text="@string/view_score"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#FF9800"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Leaderboard -->
+        <Button
+            android:id="@+id/leaderboardBtn"
+            android:text="@string/leaderboard"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#4CAF50"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- History Button -->
+        <Button
+            android:id="@+id/historyBtn"
+            android:text="@string/history"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#9C27B0"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Profile Button -->
+        <Button
+            android:id="@+id/profileBtn"
+            android:text="@string/profile"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#00BCD4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/logoutBtn"
+            android:text="@string/logout"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#F44336"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

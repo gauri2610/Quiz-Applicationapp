@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="welcome_message">Welcome to Quiz App 🎯</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="view_score">View Score</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+</resources>

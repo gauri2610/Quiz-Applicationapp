@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="Select Category 🎯"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Sports -->
+        <Button
+            android:id="@+id/sportsBtn"
+            android:text="Sports 🏏"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#2196F3"/>
+
+        <!-- History -->
+        <Button
+            android:id="@+id/historyBtn"
+            android:text="History 📜"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FF9800"/>
+
+        <!-- General Knowledge -->
+        <Button
+            android:id="@+id/gkBtn"
+            android:text="General Knowledge 🧠"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#4CAF50"/>
+
+        <!-- Science -->
+        <Button
+            android:id="@+id/scienceBtn"
+            android:text="Science 🔬"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#9C27B0"/>
+
+    </LinearLayout>
+
+</ScrollView>
